@@ -6,7 +6,11 @@ $nome = $_POST["nome"];
 $preco = $_POST["preco"];
 $descricao = $_POST["descricao"];
 $categoria = $_POST["categoria"];
-$usado = $_POST["usado"];
+if (array_key_exists("usado", $_POST)) {
+    $usado = "true";
+} else {
+    $usado = "false";
+}
 $id = $_POST['id'];
 
 if (alteraProduto($conexao, $id, $nome, $preco, $descricao, $categoria, $usado)) { ?>
