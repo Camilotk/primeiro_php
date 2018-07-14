@@ -1,2 +1,2 @@
-# primeiro_php
-Projeto básico em PHP para estudo
+# PRIMEIRO CRUD EM PHP
+Repositório criado para colocar o código do CRUD (Create, Read, Update and Delete) em PHP puro com Bootstrap, as tecnologias utilizadas foram PHP 7.2, Bootsrap Framework e XDebug.
